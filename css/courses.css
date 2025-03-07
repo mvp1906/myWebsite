@@ -1,0 +1,248 @@
+/* 
+    Name: Vijay Prakash Mudaliar
+    Student Id: 8962818 
+*/
+
+body{
+    background-color: azure;
+}
+
+main{
+    padding-bottom: 23%;
+}
+
+main span{
+    display: flex;
+    align-items: center;
+}
+
+main span img{
+    margin-right: 10px ;
+}
+
+nav{
+    border-bottom: 2px solid rgba(16, 123, 175, 0.2);
+    font-family: "Roboto", sans-serif;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav a{
+    text-decoration: none;
+    display: block;
+    background-color: #107baf;
+    color: white;
+    padding: 10px;
+}
+
+
+header{
+    background-image: url("./images/header_img_blue.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+header:hover{
+    color: thistle;
+    text-shadow: 2px 2px 20px white;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: 500;
+    line-height: 300%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 a{
+    text-decoration: none;
+    color: white;
+}
+
+h2{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #107baf;
+}
+
+h3{
+    color: #107baf;
+    font-weight: bolder;
+}
+
+.rollover-pd{
+    list-style-type:lower-latin;
+    color: #107baf;
+}
+
+.rollover-pd h4{
+    color:rgb(42, 42, 141);
+}
+
+.rollover-pd p{
+    background-color: rgb(42, 42, 141);
+    color: white;
+    padding: 5px 10px;
+    width: 50%;
+    border-radius: 3px;
+}
+
+.rollover-ds{
+    list-style-type:lower-latin;
+    color: #107baf;
+}
+
+.rollover-ds h4{
+    color:rgb(42, 42, 141);
+}
+
+.rollover-ds p{
+    background-color: rgb(42, 42, 141);
+    color: white;
+    padding: 5px 10px;
+    width: 50%;
+    border-radius: 3px;
+}
+
+.rollover-cc{
+    list-style-type:lower-latin;
+    color: #107baf;
+}
+
+.rollover-cc h4{
+    color:rgb(42, 42, 141);
+}
+
+.rollover-cc p{
+    background-color: rgb(42, 42, 141);
+    color: white;
+    padding: 5px 10px;
+    width: 50%;
+    border-radius: 3px;
+}
+
+.btnViewMore-pd, .btnViewMore-ds, .btnViewMore-cc{
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+
+#bt-wrap{
+    margin: 10px;
+    padding: 10px;
+}
+
+.btnViewLess-pd, .btnViewLess-ds, .btnViewLess-cc{
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    height: 50px;  
+}
+
+.hidden{
+    display: none;
+}
+
+input[type="number"] {
+    width: 100px;
+}
+
+.average-calculator {
+    position: fixed;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    width: 200px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    margin-right: 20px;
+
+}
+
+.average-calculator h3{
+    margin-bottom: 20px;
+    color: blue;
+}
+
+#average-result {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: red;
+}
+
+#summary {
+    margin-top: 20px;
+    font-weight: bold;
+    color: blue;
+}
+
+
+
+
+footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-family: "Roboto Slab", serif;
+    display: flex;
+    justify-content: space-between;
+    background-color: #107baf;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 999;
+}
+
+.address, .contact-info, .quick-links {
+    flex: 1; 
+    color: white;
+}
+
+.address {
+    text-align: left;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.quick-links {
+    text-align: right;
+}
+
+footer div address a{
+    text-decoration: none;
+    color: white;   
+}
+
+footer div nav ul li{
+    font-family: "Roboto Slab", serif;
+}
+
+.item1 h3{
+    color: white;
+}
