@@ -1,0 +1,94 @@
+<!-- 
+    Name: Vijay Prakash Mudaliar
+    Student Id: 8962818 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/contactus.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - EAcademy</title>
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">E-Academy</a></h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contactForm" action="./submit_contact_form.html" method="get">
+                <div class="form-group">
+                    <label for="name">Name: <span class="required">*</span></label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: <span class="required">*</span></label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message: <span class="required">*</span></label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <h2>Trusted Sources and Partners</h2>
+        <p>Please click on the images to make it breathe</p>
+        <div class="image-container">
+            <img src="./images/vw-logo.jpg" alt="Volks-Wagen" title="Volks-Wagen">
+            <img src="./images/sam-logo.png" alt="Samsung" title="Samsung">
+            <img src="./images/cisco-logo.png" alt="Cisco" title="Cisco Networkings">
+            <img src="./images/att-logo.jpg" alt="AT & T" title="American Telephone and Telegraph">
+            <img src="./images/jn-logo.png" alt="Juniper Networks" title="Juniper Networks">
+            <img src="./images/ibm-logo.png" alt="IBM" title="International Business Machines">
+            <img src="./images/sap-se.png" alt="SAP SE" title="Systems, Applications & Products in Data Processing"> 
+        </div>
+        <div id="datetime"></div>
+    </main>
+    <footer>
+        <div class="item1">
+            <h3>Contact Information</h3>
+            <address>
+                <p>Email: <a href="mailto:contactus@eacademy.on.ca">contactus@eacademy.on.ca</a></p>
+                <p>TollFree: <a href="tel:+1(537)-239-123">+1(537)-239-123</a></p>
+            </address>
+        </div>
+        <div class="item1">
+            <h3>Course Categories</h3>
+            <ul>
+                <li>Programming and Development</li>
+                <li>Data Science and Analytics</li>
+                <li>Cloud Computing</li>
+            </ul>
+        </div>
+        <div class="item1">
+            <h3>Quick Links</h3>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <small>&copy;"VijayPrakashMudaliar/8962818"&reg; 2024</small>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="./JS/contactus.js"></script>
+</body>
+</html>

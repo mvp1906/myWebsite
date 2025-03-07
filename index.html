@@ -1,0 +1,178 @@
+<!-- 
+    Name: Vijay Prakash Mudaliar
+    Student Id: 8962818 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/home.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - EAcademy</title>
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">E-Academy</a></h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Welcome to E-Academy</h2>
+        <div id="img-container">
+            <div id="img-items">
+                <img class="slider" src="./images/web-d.png" alt="Web Development">
+                <img class="slider" src="./images/mob-d.png" alt="Mobile Development">
+                <img class="slider" src="./images/IOM.PNG" alt="Machine Learning">
+                <img class="slider" src="./images/uiux.png" alt="UI UX Design">
+                <img class="slider" src="./images/gamedev.png" alt="Game Development">
+            </div>
+            <div id="left-arrow" class="c-arrow">&lt;</div>
+            <div id="right-arrow" class="c-arrow">&gt;</div>
+        </div>
+
+        <h3>Courses Available</h3>
+        <div class="course-selector">
+            <ul>
+                <li><a href="#" onclick="changeContent('Programming')">Programming</a></li>
+                <li><a href="#" onclick="changeContent('Data Science')">Data Science</a></li>
+                <li><a href="#" onclick="changeContent('Cloud Computing')">Cloud Computing</a></li>
+                <li><a href="#" onclick="changeContent('Database Administration')">Database Administration</a></li>
+            </ul>
+        </div>
+        <div id="content-box">
+            <div class="flex-container">
+                <div class="flex-item">
+                    <h4>Below are the courses related to Programming:</h4>
+                    <ul>
+                        <li>HTML and CSS Fundamentals</li>
+                        <li>JavaScript Programming</li>
+                        <li>Responsive Web Design</li>
+                        <li>Frontend Development Frameworks</li>
+                        <li>Backend Development with Node.js</li>
+                        <li>Full-Stack Web Development</li>
+                        <li>Web Development with React.js</li>
+                        <li>Web Development with Angular</li>
+                        <li>Web Development with Vue.js</li>
+                        <li>Responsive Web Design with CSS Grid and Flexbox</li>
+                        <li>Web Accessibility and Inclusive Design</li>
+                        <li>Web Performance Optimization</li>
+                        <li>Web Security Fundamentals</li>
+                        <li>Web Development Tools and Workflow</li>
+                        <li>Progressive Web Apps (PWAs)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <h3>Paid Subcription Courses</h3>
+        <section class="sec-id">
+        <div class="image-box">
+            <img src="./images/marketing.jpg" alt="Marketing">
+            <div class="text-overlay">
+                <p>Marketing</p>
+                <p>Popular Topics:</p>
+                <ul>
+                    <li>Digital Marketing</li>
+                    <li>Google Ads</li>
+                    <li>Instagram Marketing</li>
+                    <li>Facebook Marketing</li>
+                </ul>
+            </div>
+        </div>
+        <div class="image-box">
+            <img src="./images/personal-dev.jpg" alt="Personal Development">
+            <div class="text-overlay">
+                <p>Personal Development</p>
+                <p>Popular Topics:</p>
+                <ul>
+                    <li>Life Coach Training</li>
+                    <li>Speed Reading</li>
+                    <li>Leadership</li>
+                    <li>Communication Skill</li>
+                </ul>
+            </div>
+        </div>
+        <div class="image-box">
+            <img src="./images/buisness.jpg" alt="Buisness">
+            <div class="text-overlay">
+                <p>Business</p>
+                <p>Popular Topics:</p>
+                <ul>
+                    <li>Project Management</li>
+                    <li>SQL</li>
+                    <li>Data Modelling</li>
+                    <li>PMI PMBOK</li>
+                </ul>
+            </div>
+        </div>
+        <div class="image-box">
+            <img src="./images/photo.jpg" alt="Photography">
+            <div class="text-overlay">
+                <p>Photography</p>
+                <p>Popular Topics:</p>
+                <ul>
+                    <li>Video Editing</li>
+                    <li>Adobe Primere</li>
+                    <li>DaVinci Resolve</li>
+                    <li>Video Production</li>
+                </ul>
+            </div>
+        </div>
+        <div class="image-box">
+            <img src="./images/music.jpg" alt="Music">
+            <div class="text-overlay">
+                <p>Music</p>
+                <p>Popular Topics:</p>
+                <ul>
+                    <li>Piano</li>
+                    <li>Music Production</li>
+                    <li>Music Composition</li>
+                    <li>Music Theory</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    </main>
+    <footer>
+        <div class="item1">
+            <h3>Contact Information</h3>
+            <address>
+                <p>Email: <a href="mailto:contactus@eacademy.on.ca">contactus@eacademy.on.ca</a></p>
+                <p>TollFree: <a href="tel:+1(537)-239-123">+1(537)-239-123</a></p>
+            </address>
+        </div>
+        <div class="item1">
+            <h3>Course Categories</h3>
+            <ul>
+                <li>Programming and Development</li>
+                <li>Data Science and Analytics</li>
+                <li>Cloud Computing</li>
+            </ul>
+        </div>
+        <div class="item1">
+            <h3>Quick Links</h3>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <small>&copy;"VijayPrakashMudaliar/8962818"&reg; 2024</small>
+        </div>
+        
+    </footer>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>    
+    <script src="./JS/home.js"></script>
+</body>
+</html>
